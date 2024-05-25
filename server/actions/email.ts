@@ -20,7 +20,7 @@ export const sendTwoFactorTokenByEmail = async (
 	if (data) return data
 }
 
-export const sendVerificÏationEmail = async (email: string, token: string) => {
+export const sendVerificationEmail = async (email: string, token: string) => {
 	const confirmLink = `${domain}/auth/account-verification?token=${token}`
 	const {data, error} = await resend.emails.send({
 		from: "onboarding@resend.dev",
