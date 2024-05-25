@@ -34,3 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore .idea directory
+./.idea
+# Ignore server migrations
+./server/migrations/*
+# Ignore shadcn-ui components
+./components/ui/*
