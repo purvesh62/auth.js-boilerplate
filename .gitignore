@@ -39,5 +39,3 @@ next-env.d.ts
 ./.idea
 # Ignore server migrations
 ./server/migrations/*
-# Ignore shadcn-ui components
-./components/ui/*
